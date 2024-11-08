@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d577e594-dd9d-40b0-95e5-af5b1440dc81" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,25 +20,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2oIPmahVYBDRCaYfEyGW0b5IuEk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sims.py" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Sims.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="Sims" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Lesson_02" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Program Files (x86)\Python38-32\python.exe" />
+      <option name="SDK_NAME" value="Python 3.12" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -50,6 +62,13 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,52 +79,6 @@
       <updated>1730554278834</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1730554420864">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1730554420864" />
-    <state x="740" y="287" key="FileChooserDialogImpl" timestamp="1730554417575">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1730554417575" />
-    <state width="947" height="282" key="GridCell.Tab.0.bottom" timestamp="1730563861227">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="947" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1730563861227" />
-    <state width="947" height="282" key="GridCell.Tab.0.center" timestamp="1730563861226">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="947" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1730563861226" />
-    <state width="947" height="282" key="GridCell.Tab.0.left" timestamp="1730563861226">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="947" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1730563861226" />
-    <state width="947" height="282" key="GridCell.Tab.0.right" timestamp="1730563861226">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="947" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1730563861226" />
-    <state width="947" height="344" key="GridCell.Tab.1.bottom" timestamp="1730560923141">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="947" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1730560923141" />
-    <state width="947" height="344" key="GridCell.Tab.1.center" timestamp="1730560923141">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="947" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1730560923141" />
-    <state width="947" height="344" key="GridCell.Tab.1.left" timestamp="1730560923141">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="947" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1730560923141" />
-    <state width="947" height="344" key="GridCell.Tab.1.right" timestamp="1730560923141">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="947" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1730560923141" />
-    <state x="52" y="250" width="672" height="678" key="search.everywhere.popup" timestamp="1730557838547">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="52" y="250" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1730557838547" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
