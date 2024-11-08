@@ -16,6 +16,9 @@ class Human:
     def get_car(self):
         self.car = Auto(brands_of_car)
 
+    def get_country(self):
+        self.
+
     def get_job(self):
         if self.car.drive():
             pass
@@ -96,6 +99,7 @@ class Human:
         print(f"Money - {self.money}")
         print(f"Satiety - {self.satiety}")
         print(f"Gladness - {self.gladness}")
+        print(f"Chanse to die - {self.}")
 
         home_index = "Home index"
         print(f"{home_index:=^50}","\n")
@@ -204,6 +208,22 @@ job_list = {
     "C++ Developer":{"salary":45, "gladness_less":100000000000^10},
     "Ruby Developer":{"salary":70, "gladness_less":1}
 }
+
+
+class country:
+    def __init__(self, country_list):
+        self.country = random.choice(list(country_list))
+        self.chanse_to_die = country_list[self.country]["chanse to die"]
+
+country_list = {
+    "Gaza":{"chanse to die":45},
+    "Ukraine":{"chanse to die":10},
+    "China":{"chanse to die":1},
+    "USA":{"chanse to die":1},
+    "North Korea":{"chanse to die":25}
+}
+
+
 Niger = Human(name='Niger')
 
 for day in range(1,8):
