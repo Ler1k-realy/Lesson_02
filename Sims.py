@@ -1,14 +1,16 @@
 import random
 
 class Human:
-    def __init__(self, name="Niger", job=None, home=None, car=None):
+    def __init__(self, name="Niger", job=None, home=None, car=None, country=None):
         self.name = name
         self.home = home
         self.job = job
         self.car = car
+        self.country = country
         self.money = 100
         self.gladness = 50
         self.satiety = 50
+
 
     def get_home(self):
         self.home = House()
@@ -17,7 +19,8 @@ class Human:
         self.car = Auto(brands_of_car)
 
     def get_country(self):
-        self.
+        self.country = Country_live(country_list)
+
 
     def get_job(self):
         if self.car.drive():
@@ -52,7 +55,7 @@ class Human:
             self.satiety -= 4
 
     def shopping(self, manage):
-        if self.car.drive():
+        if self.car.drive:
             pass
         else:
             if self.car.fuel < 20:
@@ -99,7 +102,8 @@ class Human:
         print(f"Money - {self.money}")
         print(f"Satiety - {self.satiety}")
         print(f"Gladness - {self.gladness}")
-        print(f"Chanse to die - {self.}")
+        print(f"Country - {self.country}")
+        print(f"Chanse to die - {self.chanse_to_die}")
 
         home_index = "Home index"
         print(f"{home_index:=^50}","\n")
@@ -135,6 +139,9 @@ class Human:
         if self.job is None:
             self.get_job()
             print(f'I don`t have a job, going to get job{self.car.brand}')
+        if self.country is None:
+            self.get_country()
+            print('I dont want to live in "None". I want to live in some country')
         self.day_index(day)
 
         dice = random.randint(1, 4)
@@ -210,10 +217,11 @@ job_list = {
 }
 
 
-class country:
+class Country_live:
     def __init__(self, country_list):
         self.country = random.choice(list(country_list))
         self.chanse_to_die = country_list[self.country]["chanse to die"]
+        print()
 
 country_list = {
     "Gaza":{"chanse to die":45},
